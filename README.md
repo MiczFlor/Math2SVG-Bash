@@ -17,8 +17,11 @@ Make sure you have the right to execute the file 'Math2SVG.sh'. If not, add the 
 Run in your command line: `./Math2SVG.sh`
 
 ## Installing `pdftocairo`
+The Poppler package contains a PDF rendering library and command line tools used to manipulate PDF files.
 
-See this page for more information on [how to install Poppler][4]. The Poppler package contains a PDF rendering library and command line tools used to manipulate PDF files. This is useful for providing PDF rendering functionality as a shared library.
+You can install the package with apt-get `sudo apt-get install poppler-utils`
+
+See this page for more information on [how to install Poppler][4]. 
 
 [1]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
 [2]: http://tex.stackexchange.com/questions/71028/displaystyle-dfrac-dcases
